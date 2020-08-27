@@ -9,7 +9,7 @@ import { RuleExecutorService } from '../../@core/data/rule-executor.service';
 export class SettingsComponent {
     errors = false;
     user: string = 'adminUser';
-    password: string = 'r3dh4t1!';
+    password: string = 'admin1!';
     constructor(private _res: RuleExecutorService) { }
 
     onSubmit(value: any) {
